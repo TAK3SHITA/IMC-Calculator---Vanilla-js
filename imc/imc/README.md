@@ -4,6 +4,7 @@ projeto desenvolvido com **HTML, CSS e JavaScript** com o objetivo de elaborar u
 o projeto inclui CSS e manipulacao de campos via JS.
 
 > Curso de ADS - FATEC ITU
+> 2 Semestre
 
 ## Tecnologias Utilizadas
 - HTML5
