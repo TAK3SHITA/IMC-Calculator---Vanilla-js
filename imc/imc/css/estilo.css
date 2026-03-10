@@ -1,0 +1,85 @@
+/*
+Arquivo de estilo do project
+*/
+
+body {
+    background: rgb(223, 156, 156);
+    color: #e60000;
+    font-family: sans-serif, Arial, Helvetica, sans-serif;
+    display: flex; /* ativa o flexbox no body*/
+    justify-content: center; /*centraliza horizontal*/
+    align-items: center; /*centraliza vertical*/
+    height: 75vh; /*define a altura como % do viewport*/
+}
+
+h2{
+    text-align: center;
+    color: rgb(188, 64, 219);
+    margin-bottom: 24px; /*margem externa baixo*/
+}
+
+label{
+    display: block; /* mostra um em linha - bloco */
+    margin-top: 8px;
+    font-weight: bold; /* negrito */
+    font-size: 16px;
+}
+
+input{
+    width: 75%; /* ocupa % da largura da tela disponivel */
+    padding: 8px; /* espaço interno */
+    margin-top: 4px;
+    border: 1px solid #CCCCCC; /* cria bordas */
+    border-radius: 8px; /*arredonda as bordas */
+}
+
+button{
+    width: 100%;
+    background: rgb(21, 21, 216);
+    color: #CCCCCC;
+    padding: 16px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 16px;
+    font-size: 16px;
+    cursor: pointer; /*cursor da maozinha*/
+}
+
+button:hover{
+    background: rgb(165, 105, 233);
+}
+
+/*classe CSS*/
+.limpar{
+    background:lch(53.23% 104.58 40);
+}
+
+.limpar:hover{
+    background:rgb(255, 63, 63);
+}
+
+.formulario{
+    background: #fdf1f1;
+    padding: 32px;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+    width: 320px;
+}
+
+/* parametros do box shadow:
+    0 - deslocamento horizontal
+    0 - deslocamento vertical
+    24 - blur - embaçamento. quanto > mais suave fica
+    rgba - a = alpha ou transparencia. sempre 0/1  */
+
+
+/* Identificadores no CSS
+    sao unicos e formatam pelo id.  utiliza-se #  */
+
+#resultado{
+    background: #ffffff;
+    margin-top: 24px;
+    padding: 16px;
+    border-left: 4px solid #000000;
+    display: none;
+}
